@@ -5,25 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <title>Britlex</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <nav>
-        <a href="#"><span>Brit</span>lex </a>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#contacts">Contacts</a></li>
+      <nav class="nav">
+        <a class="logo link" href="#"><span class="brit">Brit</span>lex </a>
+        <ul class="list">
+          <li><a class="link" href="#home">Home</a></li>
+          <li><a class="link" href="#skills">Skills</a></li>
+          <li><a class="link" href="#about">About Us</a></li>
+          <li><a class="link" href="#pricing">Pricing</a></li>
+          <li><a class="link" href="#contacts">Contacts</a></li>
         </ul>
       </nav>
-      <button type="button">Let’s Talk</button>
+      <button class="btn-white" type="button">Let’s Talk</button>
     </header>
 
     <main>
-      <section id="home">
-        <h1>
+      <section class="hero" id="home">
+        <h1 class="hero-header">
           Learn <br />
           Any Foreign <br />
           Language
@@ -32,23 +39,23 @@
           With our teachers who write a program for each student, you will be
           able to make your first sketch after the first lesson.
         </p>
-        <button type="button">Get started</button>
+        <button class="btn-black" type="button">Get started</button>
         <img
           src="./img/img1.png"
           alt="The girl listens to audio recordings in different languages"
           width="654"
         />
       </section>
-      <section id="skills">
-        <h2>Skills</h2>
-        <ul>
+      <section class="skills" id="skills">
+        <h2 class="header">Skills</h2>
+        <ul class="card list">
           <li>
             <img
               src="./img/img2.png"
               alt="Two boys are speaking "
               width="390"
             />
-            <h3>Speaking</h3>
+            <h3 class="header-card">Speaking</h3>
             <p>
               Improve your English skills and confidence. Live classes and
               interactive lessons online. 20&#x00025; extra free for a limited
@@ -59,16 +66,16 @@
               high-quality courses and resources – all designed for adult
               language learners.
             </p>
-            <a href="">Learn more</a>
+            <a class="btn-black link" href="">Learn more</a>
           </li>
           <li>
             <img src="./img/img3.png" alt="Typewriter" width="390" />
-            <h3>Writing</h3>
+            <h3 class="header-card">Writing</h3>
             <p>
               One of the most important and extensive areas of natural science,
               the science that studies substances, also their composition
             </p>
-            <a href="">Learn more</a>
+            <a class="btn-black link" href="">Learn more</a>
           </li>
           <li>
             <img
@@ -76,20 +83,20 @@
               alt="A man is reading a book"
               width="390"
             />
-            <h3>Reading</h3>
+            <h3 class="header-card">Reading</h3>
             <p>
               Perception and response actions of the user resulting from the use
               and/or upcoming use of the product, system or service
             </p>
-            <a href="">Learn more</a>
+            <a class="btn-black link" href="">Learn more</a>
           </li>
           <li>
-            <h3>Listening</h3>
+            <h3 class="header-card">Listening</h3>
             <p>
               Here you can find activities to practise your listening skills.
               Listening will help you to improve your understanding
             </p>
-            <a href="">Learn more</a>
+            <a class="btn-black link" href="">Learn more</a>
             <img
               src="./img/img5.png"
               alt="People listen to music"
@@ -98,8 +105,8 @@
           </li>
         </ul>
       </section>
-      <section id="about">
-        <h2>About Us</h2>
+      <section class="about" id="about">
+        <h2 class="header">About Us</h2>
         <p>
           The model offers a framework for discussing problems related to the
           user's experience, as well as possible ways and means of solving them.
@@ -107,82 +114,96 @@
           future software product is described quite abstractly from the point
           of view of the expectations of both users and the customer.
         </p>
-        <ul>
+        <ul class="list">
           <li>
-            <p>800</p>
-            <p>Pupils</p>
+            <p class="number">800</p>
+            <p class="category">Pupils</p>
           </li>
           <li>
-            <p>18</p>
-            <p>Teachers</p>
+            <p class="number">18</p>
+            <p class="category">Teachers</p>
           </li>
           <li>
-            <p>6</p>
-            <p>Foreign languages</p>
+            <p class="number">6</p>
+            <p class="category">Foreign languages</p>
           </li>
         </ul>
         <img src="./img/img6.png" alt="" />
       </section>
       <section id="pricing">
-        <h2>Pricing</h2>
-        <ul>
-          <li>
+        <h2 class="header">Pricing</h2>
+        <ul class="list">
+          <li class="pricing-card">
             <img src="./img/img7.png" alt="Girl with laptop" width="426" />
-            <h3>Self-study online course</h3>
-            <p>
+            <h3 class="header-pricing">Self-study online course</h3>
+            <p class="text">
               Start learning English online in live classes with qualified EC
               teachers and students from all over the world.
             </p>
-            <p><span>&#x000A3;5.99</span> per month</p>
+            <p class="cost">
+              <span class="money">&#x000A3;5.99</span> per month
+            </p>
           </li>
-          <li>
+          <li class="pricing-card">
             <img
               src="./img/img8.png"
               alt="Man with teacher in class"
               width="426"
             />
-            <h3>Live online classes</h3>
-            <p>
+            <h3 class="header-pricing">Live online classes</h3>
+            <p class="text">
               Interactive group classes with expert teachers. Free 7-day trial
             </p>
-            <p><span> &#x000A3;12.99</span> per month</p>
+            <p class="cost">
+              <span class="money"> &#x000A3;12.99</span> per month
+            </p>
           </li>
-          <li>
+          <li class="pricing-card">
             <img
               src="./img/img9.png"
               alt="The girl communicates with the teacher"
               width="426"
             />
-            <h3>Personal Tuition</h3>
-            <p>
+            <h3 class="header-pricing">Personal Tuition</h3>
+            <p class="text">
               Online one-to-one English tutoring – enjoy our first session for
               only &#x00024;1
             </p>
-            <p><span> &#x000A3;12.99</span> per month</p>
+            <p class="cost">
+              <span class="money"> &#x000A3;12.99</span> per month
+            </p>
           </li>
         </ul>
       </section>
       <section id="contacts">
-        <h2>Contact Us</h2>
+        <h2 class="header">Contact Us</h2>
         <img src="./img/img10.png" alt="Man with a paper plane" width="390" />
-        <p>
+        <p class="text">
           Discover your current English level by taking our free online English
           test. Sign up to our newsletter for learning tips and free resources
         </p>
         <!--Відкорегувати в майбутньому-->
         <ul>
-          <li>Enter Your E-mail</li>
-          <li><button type="button">Subscribe</button></li>
+          <li class="enter-mail list">Enter Your E-mail</li>
+          <li class="list">
+            <button class="btn-black" type="button">Subscribe</button>
+          </li>
         </ul>
       </section>
     </main>
 
-    <footer>
-      <a href="#"><span>Brit</span>lex </a>
+    <footer class="footer">
+      <a class="logo link" href="#"><span class="brit">Brit</span>lex </a>
       <ul>
-        <li><a href="">Terms and Conditions</a></li>
-        <li><a href="">Privacy Policy</a></li>
-        <li><a href="">Cookie Policy</a></li>
+        <li class="list">
+          <a class="footer-item link" href="">Terms and Conditions</a>
+        </li>
+        <li class="list">
+          <a class="footer-item link" href="">Privacy Policy</a>
+        </li>
+        <li class="list">
+          <a class="footer-item link" href="">Cookie Policy</a>
+        </li>
       </ul>
     </footer>
   </body>

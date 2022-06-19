@@ -1,0 +1,156 @@
+:root{
+    --main-header: #000000;
+    --main-content: #8F95A5;
+    --logo: #939393;
+    --header-link: #263238;
+    --btn: #FFFFFF;
+    --number: #2A3246;
+    --per-month: #546269;
+    --card-color: #F5F5F5;
+    --cost:#EEEEEE;
+    }
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--main-content);
+    }
+
+.link {
+        cursor: default;
+        text-decoration: none;
+    }
+
+.list{
+        list-style-type: none;
+    }
+
+.logo {
+        color: var(--logo);
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: 0.03em;
+    }
+
+.brit{
+        color: var(--main-header);
+    }
+
+.nav .list .link {
+        font-weight: 500;
+        font-size: 20px;
+        color: var(--header-link);
+    }
+
+.btn-white {
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--main-header);
+        background-color: transparent;
+    }
+
+    /* hero */
+
+.hero{
+    font-size: 24px;
+}
+
+.hero-header {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.25;
+    color: var(--main-header);
+    text-transform: capitalize;
+}
+
+.btn-black {
+    text-align: center;
+    color: var(--btn);
+    background-color: var(--header-link);
+}
+
+.hero .btn-black {
+    font-size: 36px;
+    letter-spacing: 0.03em;
+}
+
+.header {
+    font-weight: 600;
+    font-size: 48px; 
+    color: var(--main-header);
+    text-transform: capitalize;
+}
+
+/* skills*/
+
+.card {
+    background-color: var(--card-color);
+}
+
+.header-card {
+    font-weight: 600;
+    font-size: 30px;  
+    color: var(--header-link);
+}
+
+.skills .btn-black {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* about us*/
+
+.about {
+font-size: 20px;
+line-height: 1.8;
+}
+
+.number {
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--number);
+}
+
+.category {
+    font-size: 20px;
+}
+
+.header-pricing{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.6;
+    text-transform: capitalize;
+    color: var(--header-link);
+}
+
+.text {
+    font-size: 20px;
+}
+
+.cost{
+    background-color: var(--cost);
+    font-size: 18px;
+    color: var(--per-month);
+}
+
+.money {
+    font-size: 24px;
+    color: var(--header-link);
+}
+
+.enter-mail {
+line-height: 1.88;
+}
+
+/*footer*/
+
+.footer-item {
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    color: var(--main-content);
+}
+
+
+
