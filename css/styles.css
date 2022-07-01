@@ -17,6 +17,15 @@ body{
     color: var(--main-content);
     }
 
+    h1, h2, h3, h4, p, ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        display: block;
+    }
+
 .link {
         cursor: default;
         text-decoration: none;
@@ -24,6 +33,7 @@ body{
 
 .list{
         list-style-type: none;
+        padding: 0px;
     }
 
 .container {
@@ -32,6 +42,14 @@ body{
     padding-left: 20px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.section{
+    padding-bottom: 180px;
+}
+
+.header{
+    padding: 55px 0;
 }
 
 .logo {
@@ -52,6 +70,9 @@ body{
     }
 
 .btn-white {
+    margin-left: auto;
+
+
     width: 312px;
     height: 70px;
 
@@ -68,27 +89,45 @@ body{
 
 .heder-item {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .heder-item .nav {
     display: flex;
+    align-items: center
 }
 
 .nav-item {
     display: flex;
-    margin-left: 228px;
+    margin: 0 0 0 228px;
 }
 .nav-item li:not(:last-child) {
  margin-right: 50px;
 }
+
+.nav-item a{
+display: block;
+}
+
     /* hero */
+
+.header-column{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
 
 .hero{
     font-size: 24px;
 }
 
-.hero-header {
+.column-first{
+width: 540px;
+}
+
+.hero-title {
+    margin-bottom: 40px;
+
     font-weight: 600;
     font-size: 64px;
     line-height: 1.25;
@@ -96,18 +135,28 @@ body{
     text-transform: capitalize;
 }
 
+.hero-txt {
+    margin-bottom: 60px;
+}
+
 .btn-black {
     text-align: center;
     color: var(--btn);
     background-color: var(--header-link);
+    border-radius: 10px;
 }
 
 .hero .btn-black {
+    width: 426px;
+    height: 100px;
+
     font-size: 36px;
     letter-spacing: 0.03em;
 }
 
-.header {
+.title {
+    margin-bottom: 60px;
+
     font-weight: 600;
     font-size: 48px; 
     color: var(--main-header);
@@ -116,8 +165,42 @@ body{
 
 /* skills*/
 
+.skills .title{
+    text-align: center;
+}
+
 .card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-vertical {
+    width: 426px;
     background-color: var(--card-color);
+    
+}
+
+.card li {
+    padding: 32px 18px ;
+}
+
+
+.card>li,
+.card-two{
+    margin-right: 30px;
+}
+
+
+.cards-column{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+
+.card-horizontal{
+display:flex;
+width: 882px;
+background-color: var(--card-color);
 }
 
 .header-card {
@@ -126,9 +209,33 @@ body{
     color: var(--header-link);
 }
 
+.title-card{
+    margin: 24px 0 20px 0;
+}
+
+.last-title {
+margin-bottom: 20px;
+}
+
+.firs-paragraph {
+    margin-bottom: 24px;
+}
+
 .skills .btn-black {
+    margin-top: 30px;
+    padding: 17px 63px 16px 64px;
+    width: 230px;
+    height: 60px;
+    
+
+
     font-weight: 500;
     font-size: 18px;
+}
+
+.center-link {
+text-align: center;
+width: 100%;
 }
 
 /* about us*/
@@ -146,6 +253,27 @@ line-height: 1.8;
 
 .category {
     font-size: 20px;
+}
+
+.about-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.checklist {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.checklist p{
+    display: block;
+    text-align: center;
+}
+
+.about-first{
+    width: 652px;
 }
 
 .header-pricing{
