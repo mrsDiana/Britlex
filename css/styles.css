@@ -178,9 +178,6 @@ width: 540px;
     
 }
 
-.card-vertical :not(:last-child){
-    margin-right: 30px;
-}
 
 .card li {
     padding: 32px 18px ;
@@ -189,6 +186,7 @@ width: 540px;
 
 .cards-column{
     display: flex;
+    justify-content: space-between;
     margin-bottom: 30px;
 }
 
