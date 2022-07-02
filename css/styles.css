@@ -38,18 +38,16 @@ body{
 
 .container {
     width: 1338px;
-    padding-right: 20px;
-    padding-left: 20px;
     margin-right: auto;
     margin-left: auto;
 }
 
 .section{
-    padding-bottom: 180px;
+    padding: 0 20px 180px 20px;
 }
 
 .header{
-    padding: 55px 0;
+    padding: 55px 20px;
 }
 
 .logo {
@@ -180,14 +178,12 @@ width: 540px;
     
 }
 
-.card li {
-    padding: 32px 18px ;
+.card-vertical :not(:last-child){
+    margin-right: 30px;
 }
 
-
-.card>li,
-.card-two{
-    margin-right: 30px;
+.card li {
+    padding: 32px 18px ;
 }
 
 
@@ -246,6 +242,8 @@ line-height: 1.8;
 }
 
 .number {
+    margin-bottom: 6px;
+
     font-weight: 600;
     font-size: 48px;
     color: var(--number);
@@ -276,7 +274,38 @@ line-height: 1.8;
     width: 652px;
 }
 
-.header-pricing{
+/* pricing */
+
+.title.pricing {
+    text-align: center;
+}
+
+.pricing-list {
+    
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 426px;
+    height: 584px;
+}
+
+.pricing-img{
+    width: 426px;
+    height: 320px;
+
+}
+
+.title-pricing{
+    margin: 31px 0 20px 0;
+
     font-weight: 600;
     font-size: 30px;
     line-height: 1.6;
@@ -289,21 +318,77 @@ line-height: 1.8;
 }
 
 .cost{
+    margin-top: auto;
+    padding: 5px 23px 4px 23px ;
+    text-align: end;
+    width: 260px;
+    height: 45px;
+    border-radius: 5px;
     background-color: var(--cost);
     font-size: 18px;
     color: var(--per-month);
 }
 
 .money {
+    margin-right: 28px;
     font-size: 24px;
     color: var(--header-link);
 }
 
+.contacts{
+    
+    padding: 0 20px 55px 20px;
+}
+
+.contacts-column{
+display: flex;
+justify-content: space-between;
+}
+
+.contact-right{
+    width: 654px;
+}
+
+.email{
+    margin-top: 30px;
+    display: flex;
+}
+
+
 .enter-mail {
+    height: 70px;
+    padding: 20px 30px;
 line-height: 1.88;
+border: 1px solid #8F95A5;
+border-radius: 10px;
+width: 425px;
+}
+
+.email .btn-black {
+    margin-left: 30px;
+    height: 70px;
+    width: 312px;
+    padding: 20px 56px;
+    border-radius: 10px;
 }
 
 /*footer*/
+.footer {
+    border-top: 1px solid #C4C4C4;
+}
+.footer .container {
+    padding: 22px 0 77px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list{
+    display: flex;
+}
+
+.footer-list .list:not(:last-child){
+    margin-right: 80px;
+}
 
 .footer-item {
     font-size: 24px;
