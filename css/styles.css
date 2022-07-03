@@ -121,6 +121,14 @@ display: block;
 
 .column-first{
 width: 540px;
+position: relative;
+}
+
+.lamp {
+    position: absolute;
+    top: 147px;
+    left: 418px;
+    transform: translateY(-50%);
 }
 
 .hero-title {
@@ -172,15 +180,19 @@ width: 540px;
     justify-content: space-between;
 }
 
+.card-vertical p{
+    width: 354px;
+}
+
 .card-vertical {
-    width: 426px;
-    background-color: var(--card-color);
-    
+    width: 426px;    
 }
 
 
 .card-item {
     padding: 32px 18px ;
+    border-radius: 10px;
+    background-color: var(--card-color);
 }
 
 
@@ -190,11 +202,13 @@ width: 540px;
     margin-bottom: 30px;
 }
 
+.card-horizontal p {
+    width: 324px;
+}
 
 .card-horizontal{
 display:flex;
 width: 882px;
-background-color: var(--card-color);
 }
 
 .header-card {
