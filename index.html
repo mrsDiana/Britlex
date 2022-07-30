@@ -9,20 +9,20 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <div class="heder-item container">
+      <div class="heder__item container">
+        <a class="logo link" href="#"><span class="brit">Brit</span>lex </a>
         <nav class="nav">
-          <a class="logo link" href="#"><span class="brit">Brit</span>lex </a>
-          <ul class="nav-item list">
+          <ul class="nav__item list">
             <li><a class="link" href="#home">Home</a></li>
             <li><a class="link" href="#skills">Skills</a></li>
             <li><a class="link" href="#about">About Us</a></li>
@@ -30,230 +30,224 @@
             <li><a class="link" href="#contacts">Contacts</a></li>
           </ul>
         </nav>
-        <button class="btn-white" type="button">Let’s Talk</button>
+        <button class="btn" type="button">Let’s Talk</button>
       </div>
     </header>
 
     <main>
       <section class="hero section" id="home">
-        <div class="header-column container">
-          <div class="column-first">
-            <h1 class="hero-title">
+        <div class="learn container">
+          <img
+            src="./img/img1.png"
+            alt="The girl listens to audio recordings in different languages"
+            width="654"
+          />
+          <div class="learn__txt">
+            <h1 class="hero__title">
               Learn <br />
               Any Foreign <br />
               Language
-              <!-- <svg>
-              <use href="./img/symbol-defs.svg#icon-lamp"></use>
-            </svg> -->
             </h1>
-            <p class="hero-txt">
+            <p class="hero__txt">
               With our teachers who write a program for each student, you will
               be able to make your first sketch after the first lesson.
             </p>
             <svg class="lamp" width="85px" height="85px">
               <use href="./img/symbol-defs.svg#icon-lamp"></use>
             </svg>
-            <button class="btn-black" type="button">Get started</button>
+            <button class="btn btn--black hero__btn" type="button">
+              Get started
+            </button>
           </div>
-          <img
-            src="./img/img1.png"
-            alt="The girl listens to audio recordings in different languages"
-            width="654"
-          />
         </div>
       </section>
       <section class="skills section" id="skills">
         <div class="container">
-          <h2 class="title">Skills</h2>
+          <h2 class="title title--center">Skills</h2>
           <ul class="card list">
-            <li class="card-vertical card-item">
+            <li class="card__item card__item--vertically">
               <img
+                class="skills__img"
                 src="./img/img2.png"
                 alt="Two boys are speaking "
                 width="390"
               />
-              <h3 class="header-card title-card">Speaking</h3>
-              <p class="firs-paragraph">
+              <h3 class="card__title">Speaking</h3>
+              <p class="card__paragraph card__paragraph--first">
                 Improve your English skills and confidence. Live classes and
                 interactive lessons online. 20&#x00025; extra free for a limited
                 time only
               </p>
-              <p>
+              <p class="card__paragraph">
                 Learn English online and improve your skills through our
                 high-quality courses and resources – all designed for adult
                 language learners.
               </p>
-              <a class="btn-black link" href="">Learn more</a>
+              <a class="btn--black skills__btn link" href="">Learn more</a>
             </li>
-            <li>
-              <ul>
-                <li>
-                  <ul class="cards-column">
-                    <li class="card-vertical card-item">
-                      <img src="./img/img3.png" alt="Typewriter" width="390" />
-                      <h3 class="header-card title-card">Writing</h3>
-                      <p>
-                        One of the most important and extensive areas of natural
-                        science, the science that studies substances, also their
-                        composition
-                      </p>
-                      <a class="btn-black link" href="">Learn more</a>
-                    </li>
-                    <li class="card-vertical card-item">
-                      <img
-                        src="./img/img4.png"
-                        alt="A man is reading a book"
-                        width="390"
-                      />
-                      <h3 class="header-card title-card">Reading</h3>
-                      <p>
-                        Perception and response actions of the user resulting
-                        from the use and/or upcoming use of the product, system
-                        or service
-                      </p>
-                      <a class="btn-black link" href="">Learn more</a>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="card-horizontal card-item">
-                  <div>
-                    <h3 class="header-card last-title">Listening</h3>
-                    <p>
-                      Here you can find activities to practise your listening
-                      skills. Listening will help you to improve your
-                      understanding
-                    </p>
-                    <a class="btn-black link" href="">Learn more</a>
-                  </div>
-                  <img
-                    src="./img/img5.png"
-                    alt="People listen to music"
-                    width="408"
-                  />
-                </li>
-              </ul>
+            <li class="card__item">
+              <img src="./img/img3.png" alt="Typewriter" width="390" />
+              <h3 class="card__title">Writing</h3>
+              <p class="card__paragraph">
+                One of the most important and extensive areas of natural
+                science, the science that studies substances, also their
+                composition
+              </p>
+              <a class="btn--black skills__btn link" href="">Learn more</a>
+            </li>
+            <li class="card__item">
+              <img
+                src="./img/img4.png"
+                alt="A man is reading a book"
+                width="390"
+              />
+              <h3 class="card__title">Reading</h3>
+              <p class="card__paragraph">
+                Perception and response actions of the user resulting from the
+                use and/or upcoming use of the product, system or service
+              </p>
+              <a class="btn--black skills__btn link" href="">Learn more</a>
+            </li>
+            <li class="card__item card__item--horizontally">
+              <div class="card__last">
+                <img
+                  src="./img/img5.png"
+                  alt="People listen to music"
+                  width="408"
+                />
+                <div>
+                  <h3 class="card__title">Listening</h3>
+                  <p class="card__paragraph--last">
+                    Here you can find activities to practise your listening
+                    skills. Listening will help you to improve your
+                    understanding
+                  </p>
+                  <a class="btn--black skills__btn link" href="">Learn more</a>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
       </section>
       <section class="about section" id="about">
-        <div class="container about-column">
-          <div class="about-first">
-            <h2 class="title">About Us</h2>
-            <p>
-              The model offers a framework for discussing problems related to
-              the user's experience, as well as possible ways and means of
-              solving them. Application development begins at the top level
-              (strategy), where the future software product is described quite
-              abstractly from the point of view of the expectations of both
-              users and the customer.
-            </p>
-            <ul class="list checklist">
-              <li>
-                <p class="number">800</p>
-                <p class="category">Pupils</p>
-              </li>
-              <li>
-                <p class="number">18</p>
-                <p class="category">Teachers</p>
-              </li>
-              <li>
-                <p class="number">6</p>
-                <p class="category">
-                  Foreign <br />
-                  languages
-                </p>
-              </li>
-            </ul>
-          </div>
-          <img src="./img/img6.png" alt="" />
+        <div class="about__column container">
+          <h2 class="title">About Us</h2>
+          <img class="about__img" src="./img/img6.png" alt="" />
+          <p>
+            The model offers a framework for discussing problems related to the
+            user's experience, as well as possible ways and means of solving
+            them. Application development begins at the top level (strategy),
+            where the future software product is described quite abstractly from
+            the point of view of the expectations of both users and the
+            customer.
+          </p>
+          <ul class="list checklist">
+            <li>
+              <p class="checklist__number">800</p>
+              <p class="checklist__category">Pupils</p>
+            </li>
+            <li>
+              <p class="checklist__number">18</p>
+              <p class="checklist__category">Teachers</p>
+            </li>
+            <li>
+              <p class="checklist__number">6</p>
+              <p class="checklist__category">
+                Foreign <br />
+                languages
+              </p>
+            </li>
+          </ul>
         </div>
       </section>
-      <section id="pricing" class="section">
+      <section class="pricing section" id="pricing">
         <div class="container">
-          <h2 class="title pricing">Pricing</h2>
-          <ul class="list pricing-list">
-            <li class="pricing-card">
+          <h2 class="title title--center">Pricing</h2>
+          <ul class="pricing__list list">
+            <li class="pricing__card">
               <img src="./img/img7.png" alt="Girl with laptop" width="426" />
-              <h3 class="title-pricing">Self-study online course</h3>
+              <h3 class="pricing__title">Self-study online course</h3>
               <p class="text">
                 Start learning English online in live classes with qualified EC
                 teachers and students from all over the world.
               </p>
               <p class="cost">
-                <span class="money">&#x000A3;5.99</span> per month
+                <span class="cost__money">&#x000A3;5.99</span> per month
               </p>
             </li>
-            <li class="pricing-card">
+            <li class="pricing__card">
               <img
                 src="./img/img8.png"
                 alt="Man with teacher in class"
                 width="426"
               />
-              <h3 class="title-pricing">Live online classes</h3>
+              <h3 class="pricing__title">Live online classes</h3>
               <p class="text">
                 Interactive group classes with expert teachers. Free 7-day trial
               </p>
               <p class="cost">
-                <span class="money"> &#x000A3;12.99</span> per month
+                <span class="cost__money"> &#x000A3;12.99</span> per month
               </p>
             </li>
-            <li class="pricing-card">
+            <li class="pricing__card">
               <img
                 src="./img/img9.png"
                 alt="The girl communicates with the teacher"
                 width="426"
               />
-              <h3 class="title-pricing">Personal Tuition</h3>
+              <h3 class="pricing__title">Personal Tuition</h3>
               <p class="text">
                 Online one-to-one English tutoring – enjoy our first session for
                 only &#x00024;1
               </p>
               <p class="cost">
-                <span class="money"> &#x000A3;12.99</span> per month
+                <span class="cost__money"> &#x000A3;12.99</span> per month
               </p>
             </li>
           </ul>
         </div>
       </section>
       <section class="contacts" id="contacts">
-        <div class="contacts-column container">
-          <img src="./img/img10.png" alt="Man with a paper plane" width="390" />
-
-          <div>
-            <div class="contact-right">
-              <h2 class="title">Contact Us</h2>
-              <p class="text">
-                Discover your current English level by taking our free online
-                English test. Sign up to our newsletter for learning tips and
-                free resources
-              </p>
-            </div>
-            <!--Відкорегувати в майбутньому-->
-            <ul class="email">
-              <li class="enter-mail list">Enter Your E-mail</li>
-              <li class="list">
-                <button class="btn-black" type="button">Subscribe</button>
-              </li>
-            </ul>
-          </div>
+        <div class="contacts__column container">
+          <h2 class="title">Contact Us</h2>
+          <img
+            class="contacts__img"
+            src="./img/img10.png"
+            alt="Man with a paper plane"
+            width="390"
+          />
+          <p class="contacts__txt text">
+            Discover your current English level by taking our free online
+            English test. Sign up to our newsletter for learning tips and free
+            resources
+          </p>
+          <form class="email">
+            <input
+              class="email__enter"
+              type="email"
+              name="email"
+              placeholder="Enter Your E-mail"
+            />
+            <button class="btn btn--black email__btn" type="submit">
+              Subscribe
+            </button>
+          </form>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="container">
+      <div class="footer__list container">
         <a class="logo link" href="#"><span class="brit">Brit</span>lex </a>
-        <ul class="footer-list">
-          <li class="list">
-            <a class="footer-item link" href="">Terms and Conditions</a>
+        <ul class="footer__link">
+          <li class="footer__item">
+            <a class="link" href="">Terms and Conditions</a>
           </li>
-          <li class="list">
-            <a class="footer-item link" href="">Privacy Policy</a>
+          <li class="footer__item">
+            <a class="link" href="">Privacy Policy</a>
           </li>
-          <li class="list">
-            <a class="footer-item link" href="">Cookie Policy</a>
+          <li class="footer__item">
+            <a class="link" href="">Cookie Policy</a>
           </li>
         </ul>
       </div>
