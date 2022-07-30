@@ -387,4 +387,103 @@ line-height: 1.8;
 
 
 
+                          <picture><source srcset="
+             ./img/.webp w,
+                          ./img/.webp w,
+                          ./img/.webp w,
+                          ./img/.webp w,
+                          ./img/.webp w,
+                          ./img/.webp w,
+                          ./img/.webp w,
+                          ./img/.webp w,
+                          ./img/.webp w,
+                          ./img/.webp w,
+                          ./img/.webp w,
+                          ./img/.webp w "
+             type="image/webp"
+                          sizes="
+            (min-width: 1378px) 390px,
+                          (min-width: 1378px) 260px,
+                          (min-width: 768px) 214px,
+                          (min-width: 575px) 185px,
+                          (min-width: 320px) 204px,
+                          100vw"
+             /><source srcset="
+             ./img/Learning-299.png 299w,
+                          ./img/.png w,
+                          ./img/.png w,
+                          ./img/.png w,
+                          ./img/.png w,
+                          ./img/.png w,
+                          ./img/.png w,
+                          ./img/.png w,
+                          ./img/.png w,
+                          ./img/.png w,
+                          ./img/.png w,
+                          ./img/.png w "
+             type="image/jpeg"
+                          sizes="
+            (min-width: 1378px) 390px,
+                          (min-width: 1378px) 260px,
+                          (min-width: 768px) 214px,
+                          (min-width: 575px) 185px,
+                          (min-width: 320px) 204px,
+                          100vw"
+             /><img src="./img/Learning-299.png" alt="Typewriter" /></picture>
+
+
+
+
+
+
+
+
+
+
+
+                         
+
+                                           <picture><source srcset="
+                     ./img/.webp w,
+                                           ./img/contact-.webp w,
+                                           ./img/contact-.webp w,
+                                           ./img/contact-.webp w,
+                                           ./img/contact-.webp w,
+                                           ./img/contact-.webp w,
+                                           ./img/contact-.webp w,
+                                           ./img/contact-.webp w,
+                                           ./img/contact-.webp w,
+                                           ./img/contact-.webp w,
+                                           ./img/contact-.webp w,
+                                           ./img/contact-.webp w "
+                     type="image/webp"
+                                           sizes="
+                    (min-width: 1378px) 390px,
+                                           (min-width: 1378px) 260px,
+                                           (min-width: 768px) 214px,
+                                           (min-width: 575px) 185px,
+                                           (min-width: 320px) 204px,
+                                           100vw"
+                     /><source srcset="
+                     ./img/Learning-299.png 299w,
+                                           ./img/contact-.png w,
+                                           ./img/contact-.png w,
+                                           ./img/contact-.png w,
+                                           ./img/contact-.png w,
+                                           ./img/contact-.png w,
+                                           ./img/contact-.png w,
+                                           ./img/contact-.png w,
+                                           ./img/contact-.png w,
+                                           ./img/contact-.png w,
+                                           ./img/contact-.png w,
+                                           ./img/contact-.png w "
+                     type="image/jpeg"
+                                           sizes="
+                    (min-width: 1378px) 390px,
+                                           (min-width: 1378px) 260px,
+                                           (min-width: 768px) 214px,
+                                           (min-width: 575px) 185px,
+                                           (min-width: 320px) 204px,
+                                           100vw"
+                     /><img src="./img/House-236.png" alt="A man is reading a book" /></picture>
 
