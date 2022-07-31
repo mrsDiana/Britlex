@@ -1,4 +1,4 @@
-:root{
+/* :root{
     --main-header: #000000;
     --main-content: #8F95A5;
     --logo: #939393;
@@ -101,7 +101,7 @@ body{
 
     /* hero */
 
-.learn{
+/* .learn{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -164,7 +164,7 @@ position: relative;
 
 /* skills*/
 
-.title--center{
+/* .title--center{
     text-align: center;
 }
 
@@ -233,11 +233,11 @@ position: relative;
 .center-link {
 text-align: center;
 width: 100%;
-}
+} */
 
 /* about us*/
 
-.about {
+/* .about {
 font-size: 20px;
 line-height: 1.8;
 }
@@ -271,12 +271,12 @@ line-height: 1.8;
 
 .checklist__category {
     font-size: 20px;
-}
+} */
 
 /* pricing */
 
 
-.pricing__list {  
+/* .pricing__list {  
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -330,7 +330,7 @@ line-height: 1.8;
     grid-template-columns: 425px 767px;
     justify-content: space-between;
     /* grid-template-rows: 200px 100px; */
-}
+/* }
 
 .contacts__img {
     grid-column: 1;
@@ -362,10 +362,10 @@ line-height: 1.8;
     width: 312px;
     padding: 20px 56px;
     border-radius: 10px;
-}
+} */ 
 
 /*footer*/
-.footer {
+/* .footer {
     border-top: 1px solid #C4C4C4;
 }
 .footer__list {
@@ -383,4 +383,4 @@ line-height: 1.8;
 
 .footer__item:not(:last-child){
     margin-right: 80px;
-}
+} */

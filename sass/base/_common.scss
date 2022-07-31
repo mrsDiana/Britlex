@@ -1,0 +1,34 @@
+:root{
+    --main-header: #000000;
+    --main-content: #8F95A5;
+    --logo: #939393;
+    --header-link: #263238;
+    --btn: #FFFFFF;
+    --number: #2A3246;
+    --per-month: #546269;
+    --card-color: #F5F5F5;
+    --cost:#EEEEEE;
+    }
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--main-content);
+    }
+
+
+.container {
+    width: 290px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section {
+    padding: 0 15px 53px 15px;
+}
+
+.title {
+    @extend %title;
+}
+

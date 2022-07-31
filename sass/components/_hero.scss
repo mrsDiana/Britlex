@@ -1,0 +1,30 @@
+.hero__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--main-header);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.hero__title--last{
+    display: block;
+}
+
+.hero__title--margin {
+    margin: 16px 0 20px 0;
+}
+
+.hero__txt {
+    text-align: center;
+}
+
+.hero__btn {
+    @extend %btn; 
+    color: var(--btn);
+    background-color: var(--header-link);
+}
+
+.lamp {
+    display: none;
+}

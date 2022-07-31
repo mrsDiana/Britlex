@@ -1,0 +1,30 @@
+.card__item {
+    padding: 16px 16px 45px 16px;
+    margin: 0 auto 0 auto;
+}
+
+.card__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 4.44;
+    color: var(--header-link);
+}
+
+.card__paragraph--first {
+    margin-bottom: 30px;
+}
+
+.skills__btn {
+    @extend %btn;
+    margin: 30px auto 0 0;
+    padding: 14px 43px;
+    width: 178px;
+    height: 50px;
+    font-size: 14px;
+    color: var(--btn);
+    background-color: var(--header-link);
+}
+
+.skills__img {
+    margin: 0 auto;
+}
