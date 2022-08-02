@@ -1,0 +1,36 @@
+.pricing {
+    text-align: center;
+}
+
+.pricing__img{
+    margin: 0 auto;
+}
+
+.pricing__title {
+    margin: 28px 0 17px 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2.3;
+    text-transform: capitalize;
+    color: var(--header-link);
+}
+
+.cost {
+    margin: 33px auto 0 auto;
+    padding: 5px 12px 5px 12px;
+    width: 170px;
+    height: 33px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: var(--cost);
+    color: var(--per-month);
+}
+
+.cost__money {
+    font-size: 18px;    
+}
+
+
+.pricing__card:not(:last-child) {
+    margin-bottom: 63px;
+}

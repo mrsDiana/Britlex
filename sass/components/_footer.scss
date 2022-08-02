@@ -1,0 +1,22 @@
+.footer {
+    border-top: 1px solid #C4C4C4;
+}
+
+.footer__list {
+    padding: 26px 15px 48px 15px;
+}
+
+.footer__link {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 9px;
+}
+
+.footer__item:not(:first-child) {
+    list-style-type: disc;
+}
+
+.logo--center {
+    text-align: center;
+}

@@ -158,7 +158,7 @@
               (min-width: 320px) 213px,
               100vw"
                 />
-                <img src="./img/Shared-213.png" alt="Two boys are speaking" />
+                <img class="skills__img" src="./img/Shared-213.png" alt="Two boys are speaking" />
               </picture>
               <h3 class="card__title">Speaking</h3>
               <p class="card__paragraph card__paragraph--first">
@@ -172,7 +172,7 @@
               <a class="btn--black skills__btn link" href="">Learn more</a>
             </li>
             <li class="card__item">
-              <picture>
+              <picture class="skills__img">
                 <source
                   srcset="
                     ./img/Typewriter-182.webp 182w,
@@ -221,7 +221,7 @@
               (min-width: 320px) 204px,
               100vw"
                 />
-                <img src="./img/Typewriter-204.png" alt="Typewriter" />
+                <img class="skills__img" src="./img/Typewriter-204.png" alt="Typewriter" />
               </picture>
               <h3 class="card__title">Writing</h3>
               <p class="card__paragraph">
@@ -231,7 +231,7 @@
               <a class="btn--black skills__btn link" href="">Learn more</a>
             </li>
             <li class="card__item">
-              <picture>
+              <picture class="skills__img">
                 <source
                   srcset="
              ./img/.webp w,
@@ -280,7 +280,7 @@
                           (min-width: 320px) 236px,
                           100vw"
                 />
-                <img src="./img/House-236.png" alt="A man is reading a book" />
+                <img class="skills__img" src="./img/House-236.png" alt="A man is reading a book" />
               </picture>
               <h3 class="card__title">Reading</h3>
               <p class="card__paragraph">
@@ -291,7 +291,7 @@
             </li>
             <li class="card__item card__item--horizontally">
               <div class="card__last">
-                <picture>
+                <picture class="skills__img">
                   <source
                     srcset="
              ./img/.webp w,
@@ -340,7 +340,7 @@
                           (min-width: 320px) 232px,
                           100vw"
                   />
-                  <img src="./img/House-236.png" alt="People listen to music" />
+                  <img class="skills__img" src="./img/House-236.png" alt="People listen to music" />
                 </picture>
                 <div>
                   <h3 class="card__title">Listening</h3>
@@ -426,10 +426,7 @@
             </li>
             <li>
               <p class="checklist__number">6</p>
-              <p class="checklist__category">
-                Foreign <br />
-                languages
-              </p>
+              <p class="checklist__category">Foreign languages</p>
             </li>
           </ul>
         </div>
@@ -439,7 +436,7 @@
           <h2 class="title title--center">Pricing</h2>
           <ul class="pricing__list list">
             <li class="pricing__card">
-              <picture>
+              <picture class="pricing__img">
                 <source
                   srcset="
                     ./img/Online-197.webp 197w,
@@ -488,7 +485,7 @@
               (min-width: 320px) 248px,
               100vw"
                 />
-                <img src="./img/Online-248.png" alt="Girl with laptop" />
+                <img class="pricing__img" src="./img/Online-248.png" alt="Girl with laptop" />
               </picture>
               <h3 class="pricing__title">Self-study online course</h3>
               <p class="text">
@@ -498,7 +495,7 @@
               <p class="cost"><span class="cost__money">&#x000A3;5.99</span> per month</p>
             </li>
             <li class="pricing__card">
-              <picture>
+              <picture class="pricing__img">
                 <source
                   srcset="
                     ./img/Lesson-219.webp 219w,
@@ -547,14 +544,18 @@
                           (min-width: 320px) 257px,
                           100vw"
                 />
-                <img src="./img/Lesson-257.png" alt="Man with teacher in class" />
+                <img
+                  class="pricing__img"
+                  src="./img/Lesson-257.png"
+                  alt="Man with teacher in class"
+                />
               </picture>
               <h3 class="pricing__title">Live online classes</h3>
               <p class="text">Interactive group classes with expert teachers. Free 7-day trial</p>
               <p class="cost"><span class="cost__money"> &#x000A3;12.99</span> per month</p>
             </li>
             <li class="pricing__card">
-              <picture>
+              <picture class="pricing__img">
                 <source
                   srcset="
                     ./img/Webinar-210.webp 210w,
@@ -601,7 +602,10 @@
                   (min-width: 575px) 253px,
                   (min-width: 320px) 241px,
                   100vw" />
-                <img src="./img/Webinar-241.png" alt="The girl communicates with the teacher"
+                <img
+                  class="pricing__img"
+                  src="./img/Webinar-241.png"
+                  alt="The girl communicates with the teacher"
               /></picture>
               <h3 class="pricing__title">Personal Tuition</h3>
               <p class="text">
@@ -670,7 +674,7 @@
           </p>
           <form class="email">
             <input class="email__enter" type="email" name="email" placeholder="Enter Your E-mail" />
-            <button class="btn btn--black email__btn" type="submit">Subscribe</button>
+            <button class="email__btn" type="submit">Subscribe</button>
           </form>
         </div>
       </section>
@@ -678,7 +682,7 @@
 
     <footer class="footer">
       <div class="footer__list container">
-        <a class="logo link" href="#"><span class="brit">Brit</span>lex </a>
+        <a class="logo logo--center link" href="#"><span class="brit">Brit</span>lex </a>
         <ul class="footer__link">
           <li class="footer__item">
             <a class="link" href="">Terms and Conditions</a>
