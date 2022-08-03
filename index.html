@@ -22,16 +22,29 @@
     <header class="header">
       <div class="heder__item container">
         <a class="logo link" href="#"><span class="brit">Brit</span>lex </a>
-        <nav class="nav">
-          <ul class="nav__item list">
-            <li><a class="link" href="#home">Home</a></li>
-            <li><a class="link" href="#skills">Skills</a></li>
-            <li><a class="link" href="#about">About Us</a></li>
-            <li><a class="link" href="#pricing">Pricing</a></li>
-            <li><a class="link" href="#contacts">Contacts</a></li>
-          </ul>
-        </nav>
-        <button class="btn" type="button">Let’s Talk</button>
+        <div class="menu-conteiner" id="menu-conteiner" data-menu>
+          <nav class="nav">
+            <ul class="nav__item list">
+              <li><a class="link" href="#home">Home</a></li>
+              <li><a class="link" href="#skills">Skills</a></li>
+              <li><a class="link" href="#about">About Us</a></li>
+              <li><a class="link" href="#pricing">Pricing</a></li>
+              <li><a class="link" href="#contacts">Contacts</a></li>
+            </ul>
+          </nav>
+          <button class="btn" type="button">Let’s Talk</button>
+        </div>
+        <button
+          class="menu-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="menu-conteiner"
+          data-menu-button
+        >
+          <span class="icon icon--top"></span>
+          <span class="icon icon--middle"></span>
+          <span class="icon icon--bottom"></span>
+        </button>
       </div>
     </header>
 
@@ -696,5 +709,6 @@
         </ul>
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
