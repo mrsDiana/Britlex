@@ -7,9 +7,27 @@
     text-align: center;
 }
 
-.hero__title--last{
+.hero__title--mobile{
     display: block;
+    @media screen and (min-width: 575px) {
+        display: none;
+    }
 }
+.hero__title--tablet {
+    display: none;
+    @media screen and (min-width: 575px) and (max-width: 767px){
+    display: block;
+    }
+}
+
+.hero__title--desktop {
+    display: none;
+
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
+}
+
 
 .hero__title--margin {
     margin: 16px 0 20px 0;
@@ -17,6 +35,10 @@
 
 .hero__txt {
     text-align: center;
+    @media screen and (min-width: 575px) {
+        width: 486px;
+        font-size: 16px;
+    }
 }
 
 .hero__btn {
@@ -26,5 +48,5 @@
 }
 
 .lamp {
-    display: none;
+    display: none; 
 }
