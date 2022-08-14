@@ -1,9 +1,33 @@
 .about {
     text-align: center;
+    @media screen and (min-width: 768px) {
+        text-align: start;
+    }
 }
+
+.title--start{
+    @media screen and (min-width: 768px) {
+            text-align: start;
+        }
+}
+
 
 .checklist {
     margin-top: 30px;
+    @media screen and (min-width: 575px){
+        display: flex;
+        justify-content: center;
+    }
+    @media screen and (min-width: 768px) {
+        text-align: center;
+        justify-content: space-between;
+    }
+}
+
+.checklist li:nth-child(2){
+    @media screen and (min-width: 575px) and (max-width: 767px) {
+    margin-left: 103px;
+    margin-right: 75px;}
 }
 
 .checklist__number {
@@ -12,4 +36,18 @@
     font-size: 24px;
     line-height: 3.33;
     color: var(--number);
+}
+
+@media screen and (min-width: 768px) {
+    .about__column {
+            display: grid;
+            grid-template-columns: 335px 295px;
+            justify-content: space-between;
+            align-items: center;
+        }
+     
+    .about__img {
+            grid-column: 2;
+            grid-row: 1/5;
+        }
 }

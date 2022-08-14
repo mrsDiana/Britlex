@@ -2,6 +2,20 @@
     text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+.pricing__list {
+        display: flex;
+        gap: 30px;
+        align-items: flex-end;
+    }
+
+    .pricing__card {
+        flex-basis: calc((100% - 60px) / 3);
+        text-align: start;
+    }
+}
+
+
 .pricing__img{
     margin: 0 auto;
 }
@@ -13,24 +27,55 @@
     line-height: 2.3;
     text-transform: capitalize;
     color: var(--header-link);
+    @media screen and (min-width: 768px){
+        line-height: 1.5;
+    }
 }
+
+        @media screen and (min-width: 768px) and (max-width: 1599px) {
+            .pricing__title--brake{
+                width: 112px;
+            }
+        }
+
+
+ .pricing__txt{
+    @media screen and (min-width: 575px) and (max-width: 767px) {
+        margin: 0 auto; 
+        width: 329px; 
+    }
+
+    @media screen and (min-width: 768px) {
+        height: 84px;
+    }
+ }
 
 .cost {
     margin: 33px auto 0 auto;
-    padding: 5px 12px 5px 12px;
+    padding: 5px 12px;
     width: 170px;
     height: 33px;
     border-radius: 5px;
     font-size: 14px;
     background-color: var(--cost);
     color: var(--per-month);
+    @media screen and (min-width: 575px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        width: 205px;
+        height: 45px; 
+        padding: 6px 17px;      
+    }
 }
 
 .cost__money {
     font-size: 18px;    
 }
 
-
+@media screen and (max-width: 767px){
 .pricing__card:not(:last-child) {
-    margin-bottom: 63px;
+        margin-bottom: 63px;
+    }
 }

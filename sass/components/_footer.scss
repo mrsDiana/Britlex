@@ -4,6 +4,11 @@
 
 .footer__list {
     padding: 26px 15px 48px 15px;
+    @media screen and (min-width: 575px){
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 .footer__link {
@@ -11,9 +16,14 @@
     justify-content: space-between;
     margin-top: 15px;
     font-size: 9px;
+    @media screen and (min-width: 575px) {
+        font-size: 12px;
+        margin-top: 0;
+        gap: 22px; 
+    }
 }
 
-.footer__item:not(:first-child) {
+.footer__item:not(:first-child) { 
     list-style-type: disc;
 }
 

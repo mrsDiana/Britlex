@@ -118,7 +118,7 @@
               With our teachers who write a program for each student, you will be able to make your
               first sketch after the first lesson.
             </p>
-            <svg class="lamp" width="85px" height="85px">
+            <svg class="lamp" width="51px" height="51px">
               <use href="./img/symbol-defs.svg#icon-lamp"></use>
             </svg>
             <button class="hero__btn" type="button">Get started</button>
@@ -307,10 +307,9 @@
               <a class="btn--black skills__btn link" href="">Learn more</a>
             </li>
             <li class="card__item card__item--horizontally">
-              <div class="card__last">
-                <picture class="skills__img">
-                  <source
-                    srcset="
+              <picture class="skills__img skills__img--grid">
+                <source
+                  srcset="
              ./img/.webp w,
                           ./img/Podcast-202.webp 202w,
                           ./img/Podcast-206.webp 206w,
@@ -324,57 +323,54 @@
                           ./img/Podcast-508.webp 508w,
                           ./img/Podcast-764.webp 764w,
                           ./img/Podcast-816.webp 816w "
-                    type="image/webp"
-                    sizes="
+                  type="image/webp"
+                  sizes="
                           (min-width: 1378px) 408px,
                           (min-width: 992px) 254px,
                           (min-width: 768px) 202px,
                           (min-width: 575px) 206px,
                           (min-width: 320px) 232px,
                           100vw"
-                  />
-                  <source
-                    srcset="
-                      ./img/Podcast-202.png 202w,
-                      ./img/Podcast-206.png 206w,
-                      ./img/Podcast-232.png 232w,
-                      ./img/Podcast-254.png 254w,
-                      ./img/Podcast-382.png 382w,
-                      ./img/Podcast-404.png 404w,
-                      ./img/Podcast-408.png 408w,
-                      ./img/Podcast-412.png 412w,
-                      ./img/Podcast-464.png 464w,
-                      ./img/Podcast-508.png 508w,
-                      ./img/Podcast-764.png 764w,
-                      ./img/Podcast-816.png 816w
-                    "
-                    type="image/jpeg"
-                    sizes="
+                />
+                <source
+                  srcset="
+                    ./img/Podcast-202.png 202w,
+                    ./img/Podcast-206.png 206w,
+                    ./img/Podcast-232.png 232w,
+                    ./img/Podcast-254.png 254w,
+                    ./img/Podcast-382.png 382w,
+                    ./img/Podcast-404.png 404w,
+                    ./img/Podcast-408.png 408w,
+                    ./img/Podcast-412.png 412w,
+                    ./img/Podcast-464.png 464w,
+                    ./img/Podcast-508.png 508w,
+                    ./img/Podcast-764.png 764w,
+                    ./img/Podcast-816.png 816w
+                  "
+                  type="image/jpeg"
+                  sizes="
                           (min-width: 1378px) 408px,
                           (min-width: 992px) 254px,
                           (min-width: 768px) 202px,
                           (min-width: 575px) 206px,
                           (min-width: 320px) 232px,
                           100vw"
-                  />
-                  <img class="skills__img" src="./img/House-236.png" alt="People listen to music" />
-                </picture>
-                <div>
-                  <h3 class="card__title">Listening</h3>
-                  <p class="card__paragraph--last">
-                    Here you can find activities to practise your listening skills. Listening will
-                    help you to improve your understanding
-                  </p>
-                  <a class="skills__btn link" href="">Learn more</a>
-                </div>
-              </div>
+                />
+                <img class="skills__img" src="./img/House-236.png" alt="People listen to music" />
+              </picture>
+              <h3 class="card__title card__title--grid">Listening</h3>
+              <p class="card__paragraph--last card__paragraph--grid">
+                Here you can find activities to practise your listening skills. Listening will help
+                you to improve your understanding
+              </p>
+              <a class="btn--black skills__btn skills__btn--grid link" href="">Learn more</a>
             </li>
           </ul>
         </div>
       </section>
       <section class="about section" id="about">
         <div class="about__column container">
-          <h2 class="title">About Us</h2>
+          <h2 class="title title--start">About Us</h2>
           <picture class="about__img">
             <source
               srcset="
@@ -505,7 +501,7 @@
                 <img class="pricing__img" src="./img/Online-248.png" alt="Girl with laptop" />
               </picture>
               <h3 class="pricing__title">Self-study online course</h3>
-              <p class="text">
+              <p class="text pricing__txt">
                 Start learning English online in live classes with qualified EC teachers and
                 students from all over the world.
               </p>
@@ -567,8 +563,10 @@
                   alt="Man with teacher in class"
                 />
               </picture>
-              <h3 class="pricing__title">Live online classes</h3>
-              <p class="text">Interactive group classes with expert teachers. Free 7-day trial</p>
+              <h3 class="pricing__title pricing__title--brake">Live online classes</h3>
+              <p class="text pricing__txt">
+                Interactive group classes with expert teachers. Free 7-day trial
+              </p>
               <p class="cost"><span class="cost__money"> &#x000A3;12.99</span> per month</p>
             </li>
             <li class="pricing__card">
@@ -624,8 +622,8 @@
                   src="./img/Webinar-241.png"
                   alt="The girl communicates with the teacher"
               /></picture>
-              <h3 class="pricing__title">Personal Tuition</h3>
-              <p class="text">
+              <h3 class="pricing__title pricing__title--brake">Personal Tuition</h3>
+              <p class="text pricing__txt">
                 Online one-to-one English tutoring – enjoy our first session for only &#x00024;1
               </p>
               <p class="cost"><span class="cost__money"> &#x000A3;12.99</span> per month</p>
@@ -635,7 +633,7 @@
       </section>
       <section class="contacts" id="contacts">
         <div class="contacts__column container">
-          <h2 class="title">Contact Us</h2>
+          <h2 class="contacts__title title title--start">Contact Us</h2>
           <picture class="contacts__img">
             <source
               srcset="

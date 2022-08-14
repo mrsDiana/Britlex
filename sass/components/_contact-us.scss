@@ -3,8 +3,42 @@
     padding-bottom: 53px;
 }
 
+@media screen and (min-width: 768px) {
+    .contacts__column {
+            display: grid;
+            grid-template-columns: 233px 432px;
+            justify-content: space-between;
+            /* grid-template-rows: 200px 100px; */
+            text-align:start;
+            align-items: end;
+            }
+    
+    .contacts__img {
+        grid-column: 1;
+        grid-row: 1/4; 
+    }
+}
+
+.contacts__title{
+    margin-bottom: 0;
+}
+
 .email {
     margin-top: 31px;
+    @media screen and (min-width:575px) {
+        display: flex;
+        align-items:flex-end;
+        margin-top: 60px;
+        border: 1px solid #8F95A5;
+        border-radius: 10px;
+        height: 60px;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 30px;
+        border: none;
+    }
+        
+    }
 }
 
 .email__enter {
@@ -14,6 +48,17 @@
     border: 1px solid #8F95A5;
     border-radius: 10px;
     width: 100%;
+
+    @media screen and (min-width: 575px) and (max-width:767px) {
+        border: none;
+        height: 100%;
+        
+    }
+
+        @media screen and (min-width: 768px){
+        height: 50px;
+    }
+
 }
 
 .email__btn {
@@ -24,5 +69,21 @@
     height: 70px;
     width: 100%;
     padding: 20px 56px;
+
+    @media screen and (min-width: 575px) and (max-width:767px) {
+        margin-top: 0;
+        width: 193px; 
+        height: 100%;
+        
+    }
+
+    @media screen and (min-width: 768px){
+        margin-left: 30px;
+        margin-top: 0;
+        padding: 15px;
+        width: 145px;
+        height: 50px;
+        font-size: 13px;
+    }
 
 }

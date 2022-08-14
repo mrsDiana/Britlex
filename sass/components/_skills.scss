@@ -1,6 +1,74 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 21px;
+    @media screen and (min-width: 575px) {
+    flex-direction: row;
+    gap: 30px;
+    @media screen and (min-width:768px) {
+    display: grid;
+    grid-template-columns: repeat(3, 224px); 
+    grid-template-rows: 442px 210px;
+    gap: 10px;
+    }
+        
+    } 
+
+}
 .card__item {
     padding: 16px 16px 45px 16px;
     margin: 0 auto 0 auto;
+    background-color: #F5F5F5;
+
+
+    @media screen and (min-width: 575px) {
+    flex-basis: calc((100% - 30px) / 2);
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px 36px 16px;
+    height: 542px;
+    font-size: 12px;
+    } 
+
+    @media screen and (min-width: 768px) {
+        height: auto;
+        font-size: 13px;
+        padding: 0px 16px 16px 16px;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .card__item--vertically {
+            grid-column: 1;
+            grid-row: 1/3;
+        }
+    
+        .card__item--horizontally {
+            grid-column: 2/4;
+            grid-row: 2;
+
+            display: grid;
+            grid-template-columns: repeat(2, 200px);
+        }
+}
+
+.skills__img {
+    margin: 0 auto;
+}
+
+.skills__img--grid {
+    grid-column: 2;
+    grid-row: 1 / 4;
+    margin-top: auto;
+}
+
+.card__title--grid,
+.card__paragraph--grid,
+.skills__btn--grid { 
+    grid-column: 1;
+    
 }
 
 .card__title {
@@ -8,10 +76,18 @@
     font-size: 18px;
     line-height: 4.44;
     color: var(--header-link);
+
+    @media screen and (min-width: 768px) {
+        font-size: 20px;
+        line-height: 2.5;
+    }
 }
 
 .card__paragraph--first {
     margin-bottom: 30px;
+    @media screen and (min-width: 575px) {
+    margin-bottom: 15px;
+    }
 }
 
 .skills__btn {
@@ -23,8 +99,17 @@
     font-size: 14px;
     color: var(--btn);
     background-color: var(--header-link);
+    @media screen and (min-width: 575px){
+        margin: auto auto 0 auto;
+        width: 200px;
+        padding: 14px 54px;
+
+    }
+
+    @media screen and (min-width: 768px){
+    margin: auto auto 0 0;
+    padding: 14px 43px;
+    width: 178px;
+    }
 }
 
-.skills__img {
-    margin: 0 auto;
-}
